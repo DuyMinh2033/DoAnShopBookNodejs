@@ -1,0 +1,7 @@
+tạo file env trong dự án:
+PORT=3333
+# MONGODB=mongodb://localhost:27017/book_store
+MONGODB=mongodb://localhost:27017/ebook?retryWrites=true&w=majority
+Mở terminal chạy các lệnh sau:
+npm i
+npm start
